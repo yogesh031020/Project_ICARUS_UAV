@@ -1,35 +1,74 @@
-# 🦅 Project ICARUS: The Evolution of a HALE UAV 🚀
+# 🦅 Project ICARUS: The HALE Evolution (1.0 & 2.0 Combined)
+**A Multi-Stage Aerospace Engineering Stack: From Structural Foundations to AI-Driven Autonomy.**
 
-**From Structural Baseline (1.0) to AI-Driven Autonomy (2.0).**
-![Status](https://img.shields.io/badge/Project-Complete-gold?style=for-the-badge)
-![Evolution](https://img.shields.io/badge/Generation-1.0_to_2.0-blue?style=for-the-badge)
----
-## 🛠️ Phase 1: ICARUS 1.0 (The Foundation)
-Project ICARUS 1.0 focused on the physical baseline and structural certification of a 3.0m HALE glider.
-*   **Design:** Conceptualized a 3.0m high-aspect-ratio wing in OpenVSP.
-*   **Structure:** Performed Static Load Testing (211N) via **PrePoMax / CalculiX**.
-*   **Result:** Established a safe, certified airframe ready for intelligence integration.
----
-## 🧠 Phase 2: ICARUS 2.0 (The Intelligence)
-Project ICARUS 2.0 transformed the 1.0 airframe into an intelligent, self-optimizing machine.
-*   **AI Optimization (Path A):** Used Neural Networks to evolve the wing from 3.0m to **3.16m** for maximum lift.
-*   **Shadow Pilot (Path B):** Integrated MAVLink for real-time AI attitude control in SITL.
-*   **Digital Twin (Path C):** Developed a Random Forest diagnostic system for structural health monitoring.
-*   **Avionics:** Configured **ArduPilot SITL** for autonomous long-range missions (150km range).
----
-## 📊 Comparison: 1.0 vs 2.0
-| Feature | ICARUS 1.0 | ICARUS 2.0 (AI Optimized) |
-| :--- | :--- | :--- |
-| **Wing Span** | 3.0 Meters | **3.16 Meters** |
-| **Control** | Manual / Standard PID | **Neural Shadow Pilot** |
-| **Health** | Visual Inspection | **AI Digital Twin Diagnostic** |
-| **Endurance** | Baseline | **+12% Efficiency Gain** |
----
+## 🚀 The ICARUS Journey: Evolution from 1.0 to 2.0
+This repository demonstrates a complete engineering lifecycle. It transitions from traditional aerospace design (ICARUS 1.0) to advanced AI-augmented autonomy (ICARUS 2.0).
+
+### 🛠️ Phase 1.0: Structural & Aerodynamic Foundations
+*   **CAD/Geometry:** Developed high-fidelity 3.0m wing models in **OpenVSP**.
+*   **Structural Certification:** Performed FEA stress analysis in **PrePoMax/CalculiX** to certify the airframe under max aero-loads.
+*   **CFD Validation:** Conducted aerodynamic simulations in **OpenFOAM** to establish baseline Lift/Drag polar data.
+
+### 🧠 Phase 2.0: AI-Driven Autonomy & Optimization
+*   **Neural Design Optimizer:** Integrated a **Neural Network (MLP)** to programmatically evolve wing geometry, achieving a +12% efficiency gain.
+*   **Shadow Pilot (RL):** Developed a **MAVLink-AI bridge** for real-time attitude control using reinforcement learning principles.
+*   **Digital Twin Health Monitor:** Implemented a **Random Forest classifier** for predictive maintenance and flutter detection.
+## 🏗️ Technical Performance & Visuals
+
+### 1. Structural Engineering (FEA)
+![FEA Stress Analysis](results/fea_stress_analysis.png)
+*PrePoMax FEA results showing stress distribution on the HALE airframe under max aero-load.*
+
+### 2. AI-Driven Wing Optimization
+![Optimization Results](results/optimization_results.png)
+*Neural Network convergence plot showing +12% lift efficiency gain through evolved wing geometry.*
+
+| Parameter | Baseline (Initial) | Optimized (Final) | Improvement |
+|-----------|--------------------|-------------------|-------------|
+| Wing Span | 3.00 m             | 3.16 m            | +5.3%       |
+| L/D Ratio | 14.2               | 15.9              | **+11.9%**  |
+| Max Stress| 9.77e4 Pa          | 9.42e4 Pa         | -3.6%       |
+
+### 3. Digital Twin & Shadow AI Pilot
+![Digital Twin Simulation](results/digital_twin_simulation.png)
+*Real-time mission telemetry featuring the Shadow AI Attitude Controller and Structural Health Monitor.*
+
+## 🛠️ Installation & Reproduction
+To run the ICARUS optimization and health monitoring stack:
+
+### Prerequisites
+- **Python:** 3.10+
+- **Environment:** ArduPilot SITL / Mission Planner (optional for flight)
+- **Tools:** OpenVSP (for geometry visualization)
+
+### Setup Guide
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yogesh031020/Project-ICARUS.git
+   cd Project-ICARUS
+   ```
+
+2. **Install core dependencies:**
+   ```bash
+   pip install numpy pandas scikit-learn pymavlink matplotlib torch
+   ```
+
+3. **Run the AI Design Optimizer:**
+   ```bash
+   python icarus_optimizer.py
+   ```
+
+4. **Launch the Health Monitoring System:**
+   ```bash
+   python icarus_health_monitor.py
+   ```
+
 ## 📂 Repository Structure
-- `/ICARUS_1.0`: Original 3.0m models and FEA reports.
-- `/ICARUS_2.0`: AI scripts, Optimized 3.16m models, and SITL logs.
-- `icarus_master.py`: The design evolution engine.
-- `icarus_health_monitor.py`: The Structural Doctor.
+- `icarus_brain.py`: Core Neural Network logic for aerodynamic prediction.
+- `icarus_ai_pilot.py`: MAVLink-based attitude control interface.
+- `icarus_health_monitor.py`: Random Forest classifier for structural failure detection.
+- `geometry/`: OpenVSP (.vsp3) source models for the airframe.
+- `results/`: High-resolution engineering data and visuals.
+
 ---
-**Developed by Yogesh E S**  
-*Aerospace AI & Drone Autonomy Engineer*
+*Developed by Yogesh E S - Aerospace AI & Drone Autonomy Engineer.*
