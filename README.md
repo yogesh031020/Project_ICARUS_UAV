@@ -1,4 +1,5 @@
 # 🦅 Project ICARUS: The Evolution of a HALE UAV 🚀
+
 **From Structural Baseline (1.0) to AI-Driven Autonomy (2.0).**
 ![Status](https://img.shields.io/badge/Project-Complete-gold?style=for-the-badge)
 ![Evolution](https://img.shields.io/badge/Generation-1.0_to_2.0-blue?style=for-the-badge)
