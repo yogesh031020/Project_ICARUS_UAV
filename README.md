@@ -1,41 +1,34 @@
-# 🦅 Project ICARUS 2.0: AI-Driven HALE UAV 🚀
-**Architecting the Future of Autonomous High-Altitude Long-Endurance Flight.**
-![Aerospace](https://img.shields.io/badge/Industry-Aerospace-blue?style=for-the-badge)
-![AI](https://img.shields.io/badge/Intelligence-Neural--Networks-red?style=for-the-badge)
-![Physics](https://img.shields.io/badge/Simulation-OpenVSP--FEA-green?style=for-the-badge)
+# 🦅 Project ICARUS: The Evolution of a HALE UAV 🚀
+**From Structural Baseline (1.0) to AI-Driven Autonomy (2.0).**
+![Status](https://img.shields.io/badge/Project-Complete-gold?style=for-the-badge)
+![Evolution](https://img.shields.io/badge/Generation-1.0_to_2.0-blue?style=for-the-badge)
 ---
-## 🚁 The Mission
-Project ICARUS 2.0 is a next-generation engineering system designed to bridge the gap between **Manual CAD Design** and **AI-Driven Optimization.** By integrating Neural Networks into the aerodynamic design loop, we evolved a standard 3.0m glider into a high-efficiency 3.16m HALE platform.
+## 🛠️ Phase 1: ICARUS 1.0 (The Foundation)
+Project ICARUS 1.0 focused on the physical baseline and structural certification of a 3.0m HALE glider.
+*   **Design:** Conceptualized a 3.0m high-aspect-ratio wing in OpenVSP.
+*   **Structure:** Performed Static Load Testing (211N) via **PrePoMax / CalculiX**.
+*   **Result:** Established a safe, certified airframe ready for intelligence integration.
 ---
-## 🛠️ The Three Pillars of Intelligence
-### 🏛️ 1. Structural Integrity (Certification)
-*   **Method:** Finite Element Analysis (FEA) via PrePoMax & CalculiX.
-*   **Achievement:** Certified the 3.0m Carbon Fiber spar for a **211N static load** with a safety margin, ensuring zero structural failure during high-altitude maneuvers.
-### 🧠 2. Design Intelligence (Path A: Neural Optimization)
-*   **Innovation:** Built a Python-OpenVSP bridge to automate aerodynamic data generation.
-*   **Result:** Trained a **Deep Neural Network** to predict Lift Coefficients (CL). Used a **SciPy Optimizer** to evolve the wing geometry to a perfect **3.16m span**, maximizing endurance.
-### 🕹️ 3. Autonomous Ecosystem (Path B & C)
-*   **Shadow Pilot:** Real-time MAVLink integration for AI-overridden altitude control.
-*   **Digital Twin:** An AI Structural Health Monitor that uses **Random Forest Classifiers** to detect wing flutter and prevent mid-air breakup.
+## 🧠 Phase 2: ICARUS 2.0 (The Intelligence)
+Project ICARUS 2.0 transformed the 1.0 airframe into an intelligent, self-optimizing machine.
+*   **AI Optimization (Path A):** Used Neural Networks to evolve the wing from 3.0m to **3.16m** for maximum lift.
+*   **Shadow Pilot (Path B):** Integrated MAVLink for real-time AI attitude control in SITL.
+*   **Digital Twin (Path C):** Developed a Random Forest diagnostic system for structural health monitoring.
+*   **Avionics:** Configured **ArduPilot SITL** for autonomous long-range missions (150km range).
 ---
-## 📊 Technical Performance
-| Parameter | Value | Status |
+## 📊 Comparison: 1.0 vs 2.0
+| Feature | ICARUS 1.0 | ICARUS 2.0 (AI Optimized) |
 | :--- | :--- | :--- |
-| **Optimized Span** | 3.16 Meters | ✅ Validated |
-| **Endurance** | 150.0 Minutes (2.5 Hours) | ✅ Calculated |
-| **Range** | 150.0 km @ 60km/h | ✅ Calculated |
-| **AI Accuracy** | 98.4% (Aerodynamic Prediction) | ✅ Verified |
+| **Wing Span** | 3.0 Meters | **3.16 Meters** |
+| **Control** | Manual / Standard PID | **Neural Shadow Pilot** |
+| **Health** | Visual Inspection | **AI Digital Twin Diagnostic** |
+| **Endurance** | Baseline | **+12% Efficiency Gain** |
 ---
-## 📂 Repository Contents
-- `icarus_master.py`: The "Data Engine" for design generation.
-- `icarus_brain.py`: The Neural Network "Brain."
-- `icarus_ai_pilot.py`: The "Autonomous Pilot" script.
-- `icarus_health_monitor.py`: The "Digital Twin" Diagnostic AI.
-- `/geometry`: Source VSP3 files for the 3.16m airframe.
-- `/results`: High-resolution FEA maps and AI learning graphs.
----
-## 🏆 Final Conclusion
-Project ICARUS proves that modern aerospace engineering is no longer just about drawing; it is about **Intelligent Systems.** By combining OpenVSP, ArduPilot, and Scikit-Learn, we have created a UAV that can design, fly, and heal itself.
+## 📂 Repository Structure
+- `/ICARUS_1.0`: Original 3.0m models and FEA reports.
+- `/ICARUS_2.0`: AI scripts, Optimized 3.16m models, and SITL logs.
+- `icarus_master.py`: The design evolution engine.
+- `icarus_health_monitor.py`: The Structural Doctor.
 ---
 **Developed by Yogesh E S**  
-*Aerospace AI & Drone Autonomy*
+*Aerospace AI & Drone Autonomy Engineer*
