@@ -71,4 +71,4 @@ To run the ICARUS optimization and health monitoring stack:
 - `results/`: High-resolution engineering data and visuals.
 
 ---
-*Developed by Yogesh E S - Aerospace AI & Drone Autonomy Engineer.*
+*Developed by Yogesh E S - Aeronautical Engineer.*
