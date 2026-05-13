@@ -1,4 +1,9 @@
 # 🦅 Project ICARUS: The HALE Evolution (1.0 & 2.0 Combined)
+
+![Status](https://img.shields.io/badge/Status-Complete-green)
+![Domain](https://img.shields.io/badge/Domain-Aerospace--Design-blue)
+![Complexity](https://img.shields.io/badge/Complexity-Senior--Level-red)
+
 **A Multi-Stage Aerospace Engineering Stack: From Structural Foundations to AI-Driven Autonomy.**
 
 ## 🚀 The ICARUS Journey: Evolution from 1.0 to 2.0
@@ -16,11 +21,11 @@ This repository demonstrates a complete engineering lifecycle. It transitions fr
 ## 🏗️ Technical Performance & Visuals
 
 ### 1. Structural Engineering (FEA)
-![FEA Stress Analysis](results/fea_stress_analysis.png)
+![FEA Stress Analysis](results/Stress_View.png)
 *PrePoMax FEA results showing stress distribution on the HALE airframe under max aero-load.*
 
 ### 2. AI-Driven Wing Optimization
-![Optimization Results](results/optimization_results.png)
+![Optimization Results](results/09_AI_Aerodynamic_Learning.png)
 *Neural Network convergence plot showing +12% lift efficiency gain through evolved wing geometry.*
 
 | Parameter | Baseline (Initial) | Optimized (Final) | Improvement |
@@ -30,7 +35,7 @@ This repository demonstrates a complete engineering lifecycle. It transitions fr
 | Max Stress| 9.77e4 Pa          | 9.42e4 Pa         | -3.6%       |
 
 ### 3. Digital Twin & Shadow AI Pilot
-![Digital Twin Simulation](results/digital_twin_simulation.png)
+![Digital Twin Simulation](results/10_Autonomous_Flight_SITL.png)
 *Real-time mission telemetry featuring the Shadow AI Attitude Controller and Structural Health Monitor.*
 
 ## 🛠️ Installation & Reproduction
@@ -71,4 +76,4 @@ To run the ICARUS optimization and health monitoring stack:
 - `results/`: High-resolution engineering data and visuals.
 
 ---
-*Developed by Yogesh E S - Aeronautical Engineer.*
+*Developed by Yogesh E S - Aerospace AI & Drone Autonomy Engineer.*
